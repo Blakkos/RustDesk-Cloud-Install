@@ -11,6 +11,7 @@ echo -e "\n\n*******************************************************************
 sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
+sudo apt install docker-compose -y
 echo -e "\n\n********************************************************************\n************************ Docker installed! *************************\n********************************************************************\n\n\n"
 
 
